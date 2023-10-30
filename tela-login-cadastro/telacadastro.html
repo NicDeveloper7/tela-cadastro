@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="main-cadastro">
+        <div class="left-cadastro">
+            <img src="astronaut-animate.svg" class="left-cadastro-image" alt="cat">
+        </div>
+        <form action="conexao.php" method="post">
+        <div class="rigth-cadastro">
+            <div class="card-cadastro">
+                <h1>Cadastro</h1>
+                <div class="textfield">
+                    <label for="usuario">Nome do Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário">
+                </div>
+                <div class="textfield">
+                    <label>Sexo</label>
+                    <input type="text" name="Sexo" placeholder="Sexo">
+                </div>
+                <div class="textfield">
+                    <label>Login</label>
+                    <input type="text" name="login" placeholder="login">
+                </div>
+                <div class="textfield">
+                    <label>Senha</label>
+                    <input type="password" name="senha" placeholder="senha">
+                </div>
+                <div class="textfield">
+                    <label>Confirmar Senha</label>
+                    <input type="password" name="confirmar-senha" placeholder="Confirme Sua Senha">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Setor</label>
+                    <input type="text" name="setor" placeholder="Senha">
+                </div>
+                
+                <button type="submit" class="btn-cadastro">Cadastrar</button>
+           
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
